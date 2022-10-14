@@ -1,7 +1,7 @@
 # MIU-MSD-CS571-2022-10-Workshop03
 ## Contacts Application
 * Create a new React Native application with Expo CLI to manage the contacts.
-* Copy the `contacts.js` file into your project and install `react-native-uuid` (npm install). Note that this file has a default export for an array of sample contacts. Each contact has a name and phone number.
+* Copy the `contacts.js` file into your project and install `react-native-uuid` (npm install). Note that this file has a default export for an array of sample contacts. Each contact has a `name` and `phone number`.
 * Create a reusable `Contact` functional-component that displays a single contact (`name` and `phone`). Validate all `props` types.
 * Display all contacts in `App` class-component using `ScrollView` component.
 * Add a button to `App` to toggle displaying the list of contacts.
