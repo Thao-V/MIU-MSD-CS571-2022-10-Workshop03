@@ -18,11 +18,3 @@ const createContact = (name = generateName(), phone = generatePhoneNumber()) => 
 export default createContact;
 
 export const contacts = Array.from({ length: 50 }, createContact);
-
-export const compare = (c1, c2) => {
-    const name1 = c1.name.toUpperCase();
-    const name2 = c2.name.toUpperCase();
-    if(name1 < name2) return -1;
-    if(name1 > name2) return 1;
-    return 0;
-}
